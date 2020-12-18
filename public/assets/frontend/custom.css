@@ -1,0 +1,212 @@
+.wordLimiter {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    max-height: 34px;
+}
+
+.modal-container {
+    position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+    position: absolute;
+}
+
+.app .image-gallery {
+    width: 100% !important;
+}
+
+.carousel .slide {
+    background-color: white !important;
+}
+
+
+.input-range__label--value{
+    top: -2.8rem !important;
+}
+
+.input-range__label{
+    font-weight: bold !important;
+    color: black !important;
+    font-size: 1.0rem !important;
+}
+
+.input-range__label--max {
+    bottom: -2.0rem !important;
+}
+
+.input-range__label--min {
+    bottom: -2.0rem !important;
+}
+
+.so-filter-heading{
+    padding-bottom: 30px !important;
+}
+
+.fa-chevron-down {
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.info-contact .info-store, .contact-form {
+    background: #fff;
+    padding: 35px;
+}
+
+body, #wrapper {
+    font-family: 'Rubik', sans-serif
+}
+.preloader {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: fixed;
+    z-index: 9999;
+    background: #666060;
+    opacity: 0.8;
+}
+.loaderImage {
+    top: 350px;
+    left: 40%;
+    position: absolute;
+    z-index: 99999;
+    width: 160px;
+    height: 160px;
+}
+
+.loaderContainer {
+    display: block;
+}
+
+.typefooter-1 .socials li a span {
+    display: block;
+}
+
+.saleIcon {
+    border-radius: 50%;
+    width: 53px;
+    height: 53px;
+    background-color: white;
+    line-height: 16px;
+    padding-top: 10px;
+    background-image: url(../.././images/circle.png);
+}
+
+.discount--count--timer {
+    color: rgb(253, 184, 25);
+    position: absolute;
+    z-index: 999;
+    left: 27%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.HomeItems li.react-multi-carousel-item {
+    width: 290px !important;
+}
+
+.home--item-title{
+    display: block;/* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.8em;
+}
+
+@media (max-width: 1200px) {
+    .product-view .content-product-right .box-info-product .cart .btn {
+        width: 130px;
+    }
+
+    .btn {
+        padding: 9px 12px;
+    }
+}
+
+.mylivechat_buttonround{
+    left: -100px !important;
+    top: 18px !important;
+}
+
+.heart {
+    animation: beat .40s infinite alternate;
+    transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+    from {color: red;}
+    to {color: yellow;}
+    to { transform: scale(1.2); }
+}
+
+.search__select {
+    border: none;
+    border-radius: 0px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: #fff;
+    z-index: 0;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 12px;
+    width: 100%;
+    background-color: #fff;
+    color: #999;
+   /* float: right !important;*/
+}
+
+option { font-size:16px; }
+
+.btn--filter {
+    margin: 4px 13px;
+    color: black !important;
+    font-size: 32px;
+}
+
+.cntr__filter {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search__container {
+    display: inline-block;
+    width: 50%;
+}
+
+@media (max-width: 991px) {
+    .search__container {
+        width: 100%;
+    }
+
+    .HomeItems li.react-multi-carousel-item{
+        width: 175px !important;
+    }
+
+    .react-multi-carousel-track li.react-multi-carousel-item{
+        width: 184px !important;
+    }
+
+    #previewModal {
+        overflow-y: auto;
+        margin-bottom: 85px;
+    }
+
+    .telephone__input__container{
+        width: 100% !important;
+    }
+
+    .products-list .product-grid .product-item-container .right-block h4 a {
+        font-size: 12px !important;
+    }
+
+    .products-list .product-layout, .product-grid .product-layout{
+        display: inline-block;
+        clear: both;
+        float: none;
+    }
+}
